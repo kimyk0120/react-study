@@ -4,7 +4,7 @@ import {useState} from "react";
 
 const Luxon = () => {
 
-    const [now, setNow] = useState(DateTime.now().toFormat('yyyy-MM-dd HH:ss'));
+    const [now, setNow] = useState();
 
     setInterval(()=>{
         setNow(DateTime.now().toFormat('yyyy-MM-dd HH:ss'));
