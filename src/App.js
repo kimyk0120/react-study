@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Luxon from './components/Luxon';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 23-07-15
-        </a>
-      </header>
+    <div>
+      <h1>React App</h1>
+      <Luxon />
     </div>
   );
 }
